@@ -1,0 +1,36 @@
+{
+    "productos": [
+        {
+            "id":1,
+            "sku": "001",
+            "nombre": "Asus TRX40-Pro",
+            "descripcion": "Mother Asus",
+            "precio": "17.500",
+            "imagen":"https://www.asus.com/media/global/products/0ol96fujavygrmr0/P_setting_fff_1_90_end_500.png"
+        },
+        {
+            "id":2,
+            "sku": "002",
+            "nombre": "Asus ROG Zenith II",
+            "descripcion": "Mother Asus AM4",
+            "precio": "30.000",
+            "imagen":"https://www.asus.com/media/global/products/pofuk4kdmxe2ftjs/P_setting_000_1_90_end_500.png"
+        },
+        {
+            "id":3,
+            "sku": "003",
+            "nombre": "Asus ROG Zenith III",
+            "descripcion": "Mother Asus AM4",
+            "precio": "32.200",
+            "imagen":"https://www.asus.com/media/global/products/pofuk4kdmxe2ftjs/P_setting_000_1_90_end_500.png"
+        },
+        {
+            "id":4,
+            "SKU": "004",
+            "nombre": "Asus ROG x570-F",
+            "descripcion": "Mother Asus AM4",
+            "precio": "47.800",
+            "imagen":"https://www.asus.com/media/global/products/SHyFHDycuUrka0tY/P_setting_000_1_90_end_500.png"
+        }
+    ]
+}

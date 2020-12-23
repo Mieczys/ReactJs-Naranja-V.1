@@ -1,0 +1,354 @@
+
+.center {
+  text-align: center;
+}
+#root{
+	background-color: rgb(148, 78, 13)
+	;
+}
+
+
+.App {
+	text-align: left;
+	max-width:100%; 
+}
+
+.App-logo {
+	margin-top: 45px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	height: 10vmin;
+	pointer-events: none;
+}
+.logo1 {
+	margin-top: 45px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	height: 40vmin;
+	pointer-events: none;
+}
+html{
+    scroll-behavior: smooth; /* en caso de que genere problemas comentarlo */
+	background-color: rgb(148, 78, 13);
+
+}
+
+/*de acá para abajo*/
+.App-header {
+	background-color: rgb(243, 125, 14);
+	min-height: 20vh;
+	display: grid;
+	grid-template-columns: 0;
+	grid-column-gap: 0 auto;
+	align-items: center;
+	font-size: calc(8px + 1vmin);
+	color: rgb(255, 255, 255);
+	/*margin: -1rem;*/
+	border-radius: 1em;
+	max-width:100%; 
+}
+.App-footer {
+	position: fixed;
+	left: 0 fixed;
+	bottom: 0;
+	text-align: center;
+	background-color: rgb(243, 125, 14);
+	height: 0 auto;
+
+	align-items: center;
+	font-size: 10;
+	color: rgb(255, 255, 255);
+	/*margin: -0.5rem;*/
+	border-radius: 1em;
+	max-width:100%; 
+}
+.grid{
+	margin-top:10px;
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr 2fr;
+	border-radius: 1em;
+	text-align: center;
+	/*background-color: rgb(243, 125, 14); cambiar color para darle relieve al cuadro de productos*/
+	grid-template-columns: 25% 25% 25% 25%;
+	
+}
+.grid2{
+	
+	grid-template-columns: 15% 60% 25%;
+	grid-column-gap: -2.5em;
+	grid-row-gap: -2em;
+	text-align: center;
+	
+}
+.grid3{
+	
+	grid-template-columns: 20% 20% 20% ;
+	grid-column-gap: 1em;
+	grid-row-gap: -2em;
+	text-align: center;
+	
+}
+body {
+	background-color: rgb(255, 136, 0);
+	min-height: 10vh;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: left;
+	justify-content: left;
+	font-size: calc(8px + 1vmin);
+	color: rgb(255, 255, 255);
+	flex-wrap: wrap;
+	margin: 1rem;
+	margin-top: -0.5rem;
+	
+	
+}
+.body {
+	min-height: 5vh;
+	display: flex;
+	margin-top:5vh;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(20px + 1vmin);
+	
+	
+}
+.App-link {
+	color: rgb(33, 78, 7);
+}
+
+
+input {
+	text-align: center;
+	display: flex;
+	width: 20%;
+	padding: 12b 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid rgb(148, 78, 13);
+	border-radius: 4px;
+}
+
+.buttoncomp {
+	padding: 15px 15px 15px 15px;
+	text-align: center;
+	margin-top:10px;
+	border-radius: 4px;
+	border-color: rgb(7, 2, 2);
+	background-color: rgb(148, 78, 13);
+	color: rgb(7, 2, 2);
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.buttoncomp:hover {
+	background-color: rgb(148, 78, 13);
+	color: white;
+}
+
+.buttondet {
+	padding: 8px 35px 8px 35px;
+	text-align: center;
+	border-radius: 4px;
+	border-color: rgb(7, 2, 2);
+	background-color: rgb(243, 125, 14);
+	color: rgb(7, 2, 2);
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.buttondeta {
+	padding: 8px 35px 8px 35px;
+	text-align: center;
+	border-radius: 4px;
+	border-color: rgb(7, 2, 2);
+	background-color: rgb(243, 125, 14);
+	color: rgb(7, 2, 2);
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.buttondet2 {
+	padding: 0 auto;
+	text-align: center;
+	border-radius: 4px;
+	border-color: rgb(7, 2, 2);
+	background-color: rgb(243, 125, 14);
+	color: rgb(7, 2, 2);
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.buttondet:hover {
+	background-color: rgb(255, 136, 0);
+	color: white;
+}
+.buttondeta:hover {
+	background-color: rgb(255, 136, 0);
+	color: white;
+}/*
+.fotoprod {
+	
+	border-style: 1, 4;
+	border-color: rgb(7, 2, 2);
+	height: 50vmin;
+	pointer-events: none;
+}*/
+/*
+.mensajeCompra{
+	border-radius: 10px;
+	border-style: 1, 4;
+	background-color: #1983e6;
+	color: white;
+	display: grid;
+	align-self: center;
+	font-size: calc(11px + 1vmin);
+	text-align:center;
+}
+*/
+#precio{
+	font-weight: 600;
+	font-size: calc(14px + 2vmin);
+}
+a{
+	color: white;
+}
+.produs{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	height: 25vmin;
+	pointer-events: none;
+	border-radius: 1em;
+}
+
+.flex-container {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	border: 1px solid silver;
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+  }
+  
+  .nowrap  { 
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+  }
+  
+  .wrap    { 
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+  }  
+  .wrap li {
+	background: gold;
+  }
+  
+  .wrap-reverse         { 
+	-webkit-flex-wrap: wrap-reverse;
+	flex-wrap: wrap-reverse;
+  }  
+  .wrap-reverse li {
+	background: deepskyblue;
+  }
+  
+  .flex-item {
+	background: tomato;
+	padding: 5px;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	
+	line-height: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+  }
+
+/*
+  :root {
+  -webkit-font-smoothing: antialiased;
+-webkit-tap-highlight-color: transparent;
+--blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #17a2b8;
+--white: #fff;
+--gray: #6c757d;
+--gray-dark: #343a40;
+--primary: #007bff;
+--secondary: #6c757d;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+--breakpoint-xs: 0;
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+text-align: left;
+box-sizing: border-box;
+display: block;
+position: relative;
+width: 100%;
+flex: 0 0 75%;
+max-width: 75%;
+order: 1;
+padding: 2rem 4rem;
+}
+*/
+/*
+.Jumbotron{
+	align-items: left;
+	text-align: left;
+	padding: 30px;
+	margin-bottom: 30px;
+	
+}
+Div.Item{
+	align-items: left;
+	text-align: left;
+	padding: 30px;
+	margin-bottom: 30px;
+}*//*
+.container{
+	
+		padding: 0px;
+		margin-bottom: 0px;
+		
+}*/
+/*
+.card{
+	width: 18rem;
+	height: 33rem;
+	background-color: coral;
+}
+*/
+.navbar {
+	margin-bottom: 0px;
+	
+}
+.jumbotron{
+    height: 100vh;
+}
